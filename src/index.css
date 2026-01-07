@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+:root {
+  /* fonts */
+  --font-raleway: "Raleway", sans-serif;
+  --font-manrope: "Manrope", sans-serif;
+
+  /* colors */
+  --color-primary: #3e6eb4;
+  --color-accent: #cd6028;
+  --color-light: #dfeefc;
+  --color-white: #ffffff;
+  --color-dark: #141219;
+  --color-darker: #1e1c26;
+}
+
+@layer utilities {
+  /* font-family */
+
+  .font-raleway {
+    font-family: var(--font-raleway);
+  }
+
+  .font-manrope {
+    font-family: var(--font-manrope);
+  }
+
+  /* background-colors */
+  .bg-primary {
+    background-color: var(--color-primary);
+  }
+  .bg-accent {
+    background-color: var(--color-accent);
+  }
+  .bg-light {
+    background-color: var(--color-light);
+  }
+  .bg-white {
+    background-color: var(--color-white);
+  }
+  .bg-dark {
+    background-color: var(--color-dark);
+  }
+  .bg-darker {
+    background-color: var(--color-darker);
+  }
+
+  /* text colors */
+  .text-primary {
+    color: var(--color-primary);
+  }
+  .text-accent {
+    color: var(--color-accent);
+  }
+  .text-light {
+    color: var(--color-light);
+  }
+  .text-white {
+    color: var(--color-white);
+  }
+  .text-dark {
+    color: var(--color-dark);
+  }
+
+  .text-darker {
+    color: var(--color-darker);
+  }
+}
