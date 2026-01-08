@@ -4,6 +4,7 @@ import Hero from './components/Hero'
 import Industries from './components/Industries'
 import Products from './components/products'
 import Blog from './components/Blog'
+import Footer from './components/Footer'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
      <Industries />
      <Products />
      <Blog />
+     <Footer/>
     </div>
   )
 }

@@ -46,7 +46,7 @@ export default function Blog() {
           <h2 className="font-raleway text-5xl font-semibold text-dark mb-6">
             Blogs
           </h2>
-          <p className="font-manrope text-lg inline-block bg-[linear-gradient(110deg,#CD6028_0%,#CD6028_45%,#3E6EB4_130%)]  
+          <p className="font-manrope font-normal text-2xl inline-block bg-[linear-gradient(110deg,#CD6028_0%,#CD6028_45%,#3E6EB4_130%)]  
        bg-clip-text text-transparent max-w-2xl mx-auto">
             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
             Lorem Ipsum has been the industry’s standard.
