@@ -28,9 +28,9 @@ function Products() {
        <h2 className='font-raleway font-semibold text-5xl text-dark'>Our Products</h2>
     </div>
     {/* content */}
-     <div className="product-content flex items-center gap-70 justify-center p-20">
+     <div className="product-content flex items-center justify-around content-center py-20 ">
       {/* left-text */}
-      <div className="left-text">
+      <div className="left-text z-20">
        <Button className="px-7 py-4 mb-3
   bg-[linear-gradient(100deg,#CD6028_20%,#CD6028_10%,#3E6EB4_80%)]
   text-xl/5 text-white font-semibold font-manrope tracking-widest">DocSim</Button>
@@ -79,9 +79,9 @@ function Products() {
       <img src={smDots6} alt="dot bg Image" />
      </div>
     {/* content */}
-     <div className="product-content flex items-center gap-70 justify-center p-50 flex-row-reverse">
+     <div className="product-content flex items-center justify-around  py-60 flex-row-reverse">
       {/* left-text */}
-      <div className="left-text">
+      <div className="left-text z-20">
        <Button className="px-7 py-4 mb-3
   bg-[linear-gradient(100deg,#CD6028_20%,#CD6028_10%,#3E6EB4_80%)]
   text-xl/5 text-white font-semibold font-manrope tracking-widest">DocPilot</Button>
@@ -123,16 +123,16 @@ function Products() {
  {/* section 3 */}
         <section className='w-full h-screen relative'>
      {/* background */}
-     <div className="bg-image absolute right-0 bottom-20">
+     <div className="bg-image absolute right-0 bottom-40">
       <img src={bgCircle} alt="Circe bg Image" />
      </div>
-      <div className="bg-image  absolute top-10">
+      <div className="bg-image  absolute top-5">
       <img src={smDots6} alt="dot bg Image" />
      </div>
     {/* content */}
-     <div className="product-content flex items-center gap-70 justify-center p-50 ">
+     <div className="product-content flex items-center justify-around py-60 ">
       {/* left-text */}
-      <div className="left-text">
+      <div className="left-text z-20">
        <Button className="px-7 py-4 mb-3
   bg-[linear-gradient(100deg,#CD6028_20%,#CD6028_10%,#3E6EB4_80%)]
   text-xl/5 text-white font-semibold font-manrope tracking-widest">Doxtract</Button>
