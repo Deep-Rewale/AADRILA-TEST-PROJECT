@@ -1,9 +1,11 @@
 import React from "react"
 import AboutImg1 from "../assets/icons/about-frame.png"
+import Team from "./team"
 
 
 function About() {
   return (
+    <>
     <section className="relative w-full min-h-screen bg-white overflow-hidden">
 
       {/* TOP SPACE FOR FIXED NAVBAR */}
@@ -38,9 +40,8 @@ function About() {
             <img src={AboutImg1} alt="About frame image" />
         </div>
     </section>
-// end of about section 
-
-
+    <Team />
+    </>
   )
 }
 
