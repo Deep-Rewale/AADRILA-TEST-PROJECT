@@ -23,8 +23,8 @@ export default function DocumentCarousel() {
   }, [])
 
   return (
-    <div className="relative w-full h-105 flex items-center justify-center overflow-hidden ">
-      <div className="relative w-225 h-full flex items-center justify-center max-lg:w-140">
+    <div className="relative w-full h-105 flex items-center justify-center overflow-hidden max-md:h-70 ">
+      <div className="relative w-225 h-full flex items-center justify-center max-lg:w-140 max-md:w-120">
 
         {images.map((img, i) => {
           const diff = (i - index + images.length) % images.length
@@ -35,7 +35,7 @@ export default function DocumentCarousel() {
             <motion.img
               key={i}
               src={img}
-              className="absolute w-93 max-lg:w-80"
+              className="absolute w-93 max-lg:w-80 max-md:w-60"
               animate={{
                 x: slots[diff],
                 scale: diff === 1 ? 1 : 0.50,

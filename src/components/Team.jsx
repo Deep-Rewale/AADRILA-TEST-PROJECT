@@ -48,13 +48,13 @@ function Team() {
       </div>
       {/* title */}
       <div className="team-tite text-center pt-30 pb-10 ">
-        <h2 className="font-raleway text-5xl font-semibold mb-3 max-lg:text-4xl ">
+        <h2 className="font-raleway text-5xl font-semibold mb-3 max-lg:text-4xl max-md:text-3xl ">
           {" "}
           Meet our team{" "}
         </h2>
         <p
           className="font-manrope font-normal text-2xl inline-block bg-[linear-gradient(110deg,#CD6028_0%,#CD6028_45%,#3E6EB4_130%)]  
-       bg-clip-text text-transparent  mb-3  max-lg:text-lg max-lg:mb-1"
+       bg-clip-text text-transparent  mb-3  max-lg:text-lg max-lg:mb-1 max-md:text-base"
         >
           Meet our passionate and talented team, committed to delivering
           exceptional <br /> results, driving innovation, and transforming your
@@ -66,13 +66,13 @@ function Team() {
       <div className="flex justify-center gap-4 mb-10">
         <button
           onClick={prev}
-          className="w-12 h-12 bg-primary rounded-xl text-white"
+          className="w-12 h-12 bg-primary rounded-xl text-white max-md:w-10 max-md:h-10"
         >
           ←
         </button>
         <button
           onClick={next}
-          className="w-12 h-12 bg-primary rounded-xl text-white"
+          className="w-12 h-12 bg-primary rounded-xl text-white max-md:w-10 max-md:h-10"
         >
           →
         </button>
@@ -131,14 +131,14 @@ function Team() {
           initial={{ opacity: 0, scale: 0.96 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.35, ease: "easeOut" }}
-          className="bg-primary text-white rounded-3xl px-20 py-10 max-w-4xl shadow-xl max-lg:px-10 max-lg:py-8"
+          className="bg-primary text-white rounded-3xl px-20 py-10 max-w-4xl shadow-xl max-lg:px-10 max-lg:py-8 max-md:px-8 max-md-py-5"
         >
           <h3 className="text-3xl font-semibold mb-2">{team[index].name}</h3>
           <p className="text-[#FFB37C] mb-4">{team[index].role}</p>
           <p>{team[index].desc}</p>
         </motion.div>
       </div>
-     <div className="mt-40">
+     <div className="mt-40 max-lg:mt-20">
          <Footer />
      </div>
     </section>

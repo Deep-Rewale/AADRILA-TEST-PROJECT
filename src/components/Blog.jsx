@@ -39,15 +39,15 @@ export default function Blog() {
       </div>
 
       {/* CONTENT */}
-      <div className=" mx-auto px-35">
+      <div className=" mx-auto px-35 max-lg:px-25 max-md:px-20">
 
         {/* HEADER */}
         <div className="text-center mb-20">
-          <h2 className="font-raleway text-5xl font-semibold text-dark mb-6">
+          <h2 className="font-raleway text-5xl font-semibold text-dark mb-6 max-md:text-4xl">
             Blogs
           </h2>
           <p className="font-manrope font-normal text-2xl inline-block bg-[linear-gradient(110deg,#CD6028_0%,#CD6028_45%,#3E6EB4_130%)]  
-       bg-clip-text text-transparent max-w-2xl mx-auto">
+       bg-clip-text text-transparent max-w-2xl mx-auto max-md:text-lg">
             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
             Lorem Ipsum has been the industry’s standard.
           </p>
@@ -64,7 +64,7 @@ export default function Blog() {
 
               {/* CARD */}
               <div className="relative bg-white rounded-2xl p-8 px-4 shadow-lg border border-gray-200 max-lg:p-5 ">
-                <h3 className="font-raleway font-semibold text-lg text-dark mb-3">
+                <h3 className="font-raleway font-semibold text-lg text-dark mb-3 max-md:text-base">
                   {blog.title}
                 </h3>
 

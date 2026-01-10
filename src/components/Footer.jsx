@@ -11,12 +11,12 @@ function Footer() {
         {/* left text */}
         <div className="footer-left">
           <div className="footer-tite">
-            <h3 className='font-raleway text-5xl font-semibold text-dark  mb-4'>Contact Us</h3>
+            <h3 className='font-raleway text-5xl font-semibold text-dark  mb-4 max-md:text-4xl'>Contact Us</h3>
           <p className='font-manrope font-normal text-xl inline-block bg-[linear-gradient(110deg,#CD6028_0%,#CD6028_45%,#3E6EB4_130%)]  
-       bg-clip-text text-transparent mb-4'>Lorem Ipsum is simply dummy text of the printing and <br/> typesetting industry. Lorem Ipsum has been the industry's.</p>
+       bg-clip-text text-transparent mb-4 max-md:text-lg'>Lorem Ipsum is simply dummy text of the printing and <br/> typesetting industry. Lorem Ipsum has been the industry's.</p>
           </div>
           <div className="footer-text">
-            <h4 className="font-raleway text-bold text-base underline "><img src={mapicon} alt="" /> U.S. Office</h4>
+            <h4 className="font-raleway text-bold text-base underline  "><img src={mapicon} alt="" /> U.S. Office</h4>
             <p className='font-manrope font-normal text-sm mt-2 mb-4'>Aadrila Technologies INC,< br />
              8 The Green, Ste R, in the City of Dover County of Kent Zip Code 19901.</p>
 
@@ -28,8 +28,8 @@ function Footer() {
         {/* right form */}
         <div className="footer-right w-2xl">
            <div className='bg-white rounded-3xl py-20 px-12 text-dark shadow-[0_0_40px_rgba(0,0,0,0.12)]
-'>
-             <div className="grid grid-cols-2 gap-6 mb-6">
+      max-md:mx-15 '>
+             <div className="grid grid-cols-2 gap-6 mb-6 ">
                 <input className="input outline-none border-solid border  rounded-md border-[#959595] py-3 px-6 text-[#959595]" placeholder="Full Name" />
                 <input className="input outline-none border-solid border rounded-md border-[#959595] py-3 px-6 text-[#959595]" placeholder="Email" />
                 <input className="input outline-none border-solid border rounded-md border-[#959595] py-3 px-6 text-[#959595]" placeholder="Phone Number" />

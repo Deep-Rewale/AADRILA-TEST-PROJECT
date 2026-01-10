@@ -14,10 +14,10 @@ function Industries() {
     {/* Main Grid */}
     <div className="grid grid-cols-2 gap-20 max-lg:grid-cols-1">
     {/* left content  */}
-     <div className="left-text   z-4">
+     <div className="left-text z-4">
         <p className='font-manrope font-bold text-3xl/[68.25px] inline-block bg-[linear-gradient(110deg,#CD6028_0%,#CD6028_45%,#3E6EB4_130%)]  
-       bg-clip-text text-transparent'>AI-driven innovation for growth.</p>
-        <h2 className='font-raleway font-semibold text-5xl '>Industries We Empower</h2>
+       bg-clip-text text-transparent max-md:text-2xl'>AI-driven innovation for growth.</p>
+        <h2 className='font-raleway font-semibold text-5xl max-md:text-4xl '>Industries We Empower</h2>
      </div>
      {/* Right content */}
      <div className="right-content w-full h-180 max-lg:h-auto ">
@@ -41,7 +41,7 @@ function Industries() {
   max-lg:gap-10 max-md:gap-8
   max-lg:place-items-center
   max-lg:justify-items-center
-  max-lg:relative max-lg:z-10">
+  max-lg:relative max-lg:z-10 max-md:grid-cols-1 max-md:mx-10">
       {/* Card 1 Insurance */}
        <div className="card1 absolute left-70 bottom-35 w-90 rounded-2xl py-20 px-13 shadow-2xl bg-white max-lg:static max-lg:mx-auto max-lg:w-[22rem] max-md:w-full">
           <div className='flex flex-col items-center text-center gap-4'>
