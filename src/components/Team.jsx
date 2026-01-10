@@ -48,13 +48,13 @@ function Team() {
       </div>
       {/* title */}
       <div className="team-tite text-center pt-30 pb-10 ">
-        <h2 className="font-raleway text-5xl font-semibold mb-3 ">
+        <h2 className="font-raleway text-5xl font-semibold mb-3 max-lg:text-4xl ">
           {" "}
           Meet our team{" "}
         </h2>
         <p
           className="font-manrope font-normal text-2xl inline-block bg-[linear-gradient(110deg,#CD6028_0%,#CD6028_45%,#3E6EB4_130%)]  
-       bg-clip-text text-transparent  mb-3 "
+       bg-clip-text text-transparent  mb-3  max-lg:text-lg max-lg:mb-1"
         >
           Meet our passionate and talented team, committed to delivering
           exceptional <br /> results, driving innovation, and transforming your
@@ -118,7 +118,7 @@ function Team() {
         </motion.div>
       </div>
 
-      {/* info cars */}
+      {/* info cards */}
       <div className="relative mt-20 flex justify-center">
         <div
           className="absolute -top-3 w-0 h-0
@@ -131,7 +131,7 @@ function Team() {
           initial={{ opacity: 0, scale: 0.96 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.35, ease: "easeOut" }}
-          className="bg-primary text-white rounded-3xl px-20 py-10 max-w-4xl shadow-xl"
+          className="bg-primary text-white rounded-3xl px-20 py-10 max-w-4xl shadow-xl max-lg:px-10 max-lg:py-8"
         >
           <h3 className="text-3xl font-semibold mb-2">{team[index].name}</h3>
           <p className="text-[#FFB37C] mb-4">{team[index].role}</p>

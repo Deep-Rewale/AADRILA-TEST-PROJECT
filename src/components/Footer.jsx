@@ -7,7 +7,7 @@ function Footer() {
   return (
     <footer className=' relative'>
     {/* contact section */}
-     <div className="footer-container flex justify-around ">
+     <div className="footer-container flex justify-around max-lg:flex-col-reverse max-lg:items-center max-lg:gap-10 max-lg:mb-10">
         {/* left text */}
         <div className="footer-left">
           <div className="footer-tite">
@@ -44,7 +44,7 @@ function Footer() {
         </div>
      </div>
      {/* last section */}
-       <div className="last-section bg-primary h-50 text-white font-manrope text-sm font-normal p-15 -mt-30 ">
+       <div className="last-section bg-primary h-50 text-white font-manrope text-sm font-normal p-15 -mt-30 max-lg:mt-0">
         <p className='mb-4'>© 2025 by Aadrila Technologies Private Limited CIN U74999UP2017PTC094688</p>
         <p className='mb-4'>Registered Address: B-1, 127/K, Sector-K Aliganj, Lucknow, Lucknow,<br/>
           Uttar Pradesh, India, 226024</p>

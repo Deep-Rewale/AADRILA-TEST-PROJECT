@@ -22,15 +22,15 @@ function Products() {
       <img src={smDots6} alt="dot bg Image" />
      </div>
      {/* title-section */}
-    <div className="product-text text-center pt-15">
+    <div className="product-text text-center pt-15 max-lg:pt-2 pb-2">
       <p className='font-manrope font-semibold text-2xl font-manrope  inline-block bg-[linear-gradient(110deg,#CD6028_0%,#CD6028_45%,#3E6EB4_130%)]  
        bg-clip-text text-transparent mb-2'>features and benefits.</p>
        <h2 className='font-raleway font-semibold text-5xl text-dark'>Our Products</h2>
     </div>
     {/* content */}
-     <div className="product-content flex items-center justify-around content-center py-20 ">
+     <div className="product-content flex items-center justify-around content-center py-20 max-lg:flex-col-reverse max-lg:py-5">
       {/* left-text */}
-      <div className="left-text z-20">
+      <div className="left-text z-20 max-lg:mt-5">
        <Button className="px-7 py-4 mb-3
   bg-[linear-gradient(100deg,#CD6028_20%,#CD6028_10%,#3E6EB4_80%)]
   text-xl/5 text-white font-semibold font-manrope tracking-widest">DocSim</Button>
@@ -79,9 +79,9 @@ function Products() {
       <img src={smDots6} alt="dot bg Image" />
      </div>
     {/* content */}
-     <div className="product-content flex items-center justify-around  py-60 flex-row-reverse">
+     <div className="product-content flex items-center justify-around  py-60 flex-row-reverse max-lg:flex-col-reverse max-lg:py-30 ">
       {/* left-text */}
-      <div className="left-text z-20">
+      <div className="left-text z-20 max-lg:mt-5">
        <Button className="px-7 py-4 mb-3
   bg-[linear-gradient(100deg,#CD6028_20%,#CD6028_10%,#3E6EB4_80%)]
   text-xl/5 text-white font-semibold font-manrope tracking-widest">DocPilot</Button>
@@ -130,9 +130,9 @@ function Products() {
       <img src={smDots6} alt="dot bg Image" />
      </div>
     {/* content */}
-     <div className="product-content flex items-center justify-around py-60 ">
+     <div className="product-content flex items-center justify-around py-60  max-lg:flex-col-reverse max-lg:py-30">
       {/* left-text */}
-      <div className="left-text z-20">
+      <div className="left-text z-20 max-lg:mt-5">
        <Button className="px-7 py-4 mb-3
   bg-[linear-gradient(100deg,#CD6028_20%,#CD6028_10%,#3E6EB4_80%)]
   text-xl/5 text-white font-semibold font-manrope tracking-widest">Doxtract</Button>

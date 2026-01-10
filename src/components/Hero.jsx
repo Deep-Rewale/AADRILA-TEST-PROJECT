@@ -10,7 +10,7 @@ function Hero() {
     {/* background soft theme */}
     <div className="absolute inset-0 bg-white/45 z-10" />
     {/* hero content */}
-    <div className="hero-content relative py-66 px-20 z-20 flex justify-around">
+    <div className="hero-content relative py-66 px-20 z-20 flex justify-around max-lg:flex-col-reverse max-lg:py-35 max-lg:gap-20">
     {/* left texts */}
      <div className="textStructure  max-w-3xl">
        <h1 className='font-raleway font-bold text-5xl/[68.25px] inline-block bg-[linear-gradient(110deg,#CD6028_0%,#CD6028_45%,#3E6EB4_130%)]  
@@ -29,7 +29,7 @@ function Hero() {
       </div>
     </div>
     {/* right image */}
-    <div className="right-images w-1/2 flex justify-center ">
+    <div className="right-images w-1/2 flex justify-center max-lg:w-full">
        <DocumentCarousel />
     </div>
     </div>

@@ -54,7 +54,7 @@ export default function Blog() {
         </div>
 
         {/* BLOG CARDS */}
-        <div className="grid grid-cols-3 gap-20 ">
+        <div className="grid grid-cols-3 gap-20 max-lg:grid-cols-1 ">
           {blogs.map((blog, index) => (
             <div key={index} className="relative">
 
@@ -63,7 +63,7 @@ export default function Blog() {
   />
 
               {/* CARD */}
-              <div className="relative bg-white rounded-2xl p-8 px-4 shadow-lg border border-gray-200  ">
+              <div className="relative bg-white rounded-2xl p-8 px-4 shadow-lg border border-gray-200 max-lg:p-5 ">
                 <h3 className="font-raleway font-semibold text-lg text-dark mb-3">
                   {blog.title}
                 </h3>
