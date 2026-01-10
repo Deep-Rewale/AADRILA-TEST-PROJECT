@@ -18,17 +18,17 @@ function Products() {
      <div className="bg-image absolute right-0 bottom-20">
       <img src={bgCircle} alt="Circe bg Image" />
      </div>
-      <div className="bg-image  absolute top-10">
+      <div className="bg-image  absolute top-10 -z-1">
       <img src={smDots6} alt="dot bg Image" />
      </div>
      {/* title-section */}
     <div className="product-text text-center pt-15 max-lg:pt-2 pb-2">
-      <p className='font-manrope font-semibold text-2xl font-manrope  inline-block bg-[linear-gradient(110deg,#CD6028_0%,#CD6028_45%,#3E6EB4_130%)]  
-       bg-clip-text text-transparent mb-2 max-md:text-xl'>features and benefits.</p>
-       <h2 className='font-raleway font-semibold text-5xl text-dark max-md:text-4xl'>Our Products</h2>
+      <p className=' font-manrope font-semibold text-2xl font-manrope  inline-block bg-[linear-gradient(110deg,#CD6028_0%,#CD6028_45%,#3E6EB4_130%)]  
+       bg-clip-text text-transparent mb-2 max-md:text-xl max-sm:text-lg'>features and benefits.</p>
+       <h2 className=' font-raleway font-semibold text-5xl text-dark max-md:text-4xl max-sm:text-3xl'>Our Products</h2>
     </div>
     {/* content */}
-     <div className="product-content flex items-center justify-around content-center py-20 max-lg:flex-col-reverse max-lg:py-5">
+     <div className="product-content flex items-center justify-around content-center py-20 max-lg:flex-col-reverse max-lg:py-6 max-sm:px-5">
       {/* left-text */}
       <div className="left-text z-20 max-lg:mt-5">
        <Button className="px-7 py-4 mb-3
@@ -53,10 +53,10 @@ function Products() {
           </div>
           {/* buttons */}
           <div className="buttons mt-6">
-         <Button className="px-16 py-4 mr-10 bg-primary text-base text-white max-md:px-13 max-md:py:3 max-md:text-sm">
+         <Button className="px-16 py-4 mr-10 bg-primary text-base text-white max-md:px-13 max-md:py:3 max-md:text-sm max-sm:px-5 max-sm:py-4 max-sm:mr-4">
          Learn More
         </Button>
-        <Button className="px-13 py-4 bg-primary text-base text-white max-md:px-13 max-md:py:3 max-md:text-sm">
+        <Button className="px-13 py-4 bg-primary text-base text-white max-md:px-13 max-md:py:3 max-md:text-sm max-sm:px-5 max-sm:py-4">
         Schedule a Demo
         </Button>
       </div>
@@ -79,7 +79,7 @@ function Products() {
       <img src={smDots6} alt="dot bg Image" />
      </div>
     {/* content */}
-     <div className="product-content flex items-center justify-around  py-60 flex-row-reverse max-lg:flex-col-reverse max-lg:py-30 ">
+     <div className="product-content flex items-center justify-around  py-60 flex-row-reverse max-lg:flex-col-reverse max-lg:py-30 max-sm:px-6 max-sm:py-5 ">
       {/* left-text */}
       <div className="left-text z-20 max-lg:mt-5">
        <Button className="px-7 py-4 mb-3
@@ -104,10 +104,10 @@ function Products() {
           </div>
           {/* buttons */}
           <div className="buttons mt-6">
-         <Button className="px-16 py-4 mr-10 bg-primary text-base text-white max-md:px-13 max-md:py:3 max-md:text-sm">
+         <Button className="px-16 py-4 mr-10 bg-primary text-base text-white max-md:px-13 max-md:py:3 max-md:text-sm max-sm:px-5 max-sm:py-4 max-sm:mr-4">
          Learn More
         </Button>
-        <Button className="px-13 py-4 bg-primary text-base text-white max-md:px-13 max-md:py:3 max-md:text-sm">
+        <Button className="px-13 py-4 bg-primary text-base text-white max-md:px-13 max-md:py:3 max-md:text-sm max-sm:px-5 max-sm:py-4 ">
         Schedule a Demo
         </Button>
       </div>
@@ -130,7 +130,7 @@ function Products() {
       <img src={smDots6} alt="dot bg Image" />
      </div>
     {/* content */}
-     <div className="product-content flex items-center justify-around py-60  max-lg:flex-col-reverse max-lg:py-30">
+     <div className="product-content flex items-center justify-around py-60  max-lg:flex-col-reverse max-lg:py-30 max-sm:px-6 max-sm:py-5">
       {/* left-text */}
       <div className="left-text z-20 max-lg:mt-5">
        <Button className="px-7 py-4 mb-3
@@ -155,10 +155,10 @@ function Products() {
           </div>
           {/* buttons */}
           <div className="buttons mt-6">
-         <Button className="px-16 py-4 mr-10 bg-primary text-base text-white max-md:px-13 max-md:py:3 max-md:text-sm">
+         <Button className="px-16 py-4 mr-10 bg-primary text-base text-white max-md:px-13 max-md:py:3 max-md:text-sm max-sm:px-5 max-sm:py-4 max-sm:mr-4">
          Learn More
         </Button>
-        <Button className="px-13 py-4 bg-primary text-base text-white max-md:px-13 max-md:py:3 max-md:text-sm">
+        <Button className="px-13 py-4 bg-primary text-base text-white max-md:px-13 max-md:py:3 max-md:text-sm max-sm:px-5 max-sm:py-4">
         Schedule a Demo
         </Button>
       </div>

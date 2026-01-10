@@ -7,7 +7,7 @@ function Footer() {
   return (
     <footer className=' relative'>
     {/* contact section */}
-     <div className="footer-container flex justify-around max-lg:flex-col-reverse max-lg:items-center max-lg:gap-10 max-lg:mb-10">
+     <div className="footer-container flex justify-around max-lg:flex-col-reverse max-lg:items-center max-lg:gap-10 max-lg:mb-10 max-sm:px-4">
         {/* left text */}
         <div className="footer-left">
           <div className="footer-tite">
@@ -28,8 +28,8 @@ function Footer() {
         {/* right form */}
         <div className="footer-right w-2xl">
            <div className='bg-white rounded-3xl py-20 px-12 text-dark shadow-[0_0_40px_rgba(0,0,0,0.12)]
-      max-md:mx-15 '>
-             <div className="grid grid-cols-2 gap-6 mb-6 ">
+      max-md:mx-15 max-sm:mx-28 '>
+             <div className="grid grid-cols-2 gap-6 mb-6 max-sm:grid-cols-1">
                 <input className="input outline-none border-solid border  rounded-md border-[#959595] py-3 px-6 text-[#959595]" placeholder="Full Name" />
                 <input className="input outline-none border-solid border rounded-md border-[#959595] py-3 px-6 text-[#959595]" placeholder="Email" />
                 <input className="input outline-none border-solid border rounded-md border-[#959595] py-3 px-6 text-[#959595]" placeholder="Phone Number" />
@@ -44,7 +44,7 @@ function Footer() {
         </div>
      </div>
      {/* last section */}
-       <div className="last-section bg-primary h-50 text-white font-manrope text-sm font-normal p-15 -mt-30 max-lg:mt-0">
+       <div className="last-section bg-primary h-50 text-white font-manrope text-sm font-normal p-15 -mt-30 max-lg:mt-0 max-sm:p-4 max-sm:h-auto">
         <p className='mb-4'>© 2025 by Aadrila Technologies Private Limited CIN U74999UP2017PTC094688</p>
         <p className='mb-4'>Registered Address: B-1, 127/K, Sector-K Aliganj, Lucknow, Lucknow,<br/>
           Uttar Pradesh, India, 226024</p>

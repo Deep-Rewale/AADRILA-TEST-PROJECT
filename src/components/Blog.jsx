@@ -23,31 +23,31 @@ const blogs = [
 
 export default function Blog() {
   return (
-    <section className="relative py-32 bg-white overflow-hidden">
+    <section className="relative py-32 bg-white overflow-hidden max-lg:py-15">
 
       {/* DOT DECORATIONS */}
-      <div className="absolute left-16 top-24 grid grid-cols-4 gap-3">
+      <div className="absolute left-16 top-24 grid grid-cols-4 gap-3 -z-1">
         {Array.from({ length: 16 }).map((_, i) => (
           <span key={i} className="w-2 h-2 bg-gray-300 rounded-full" />
         ))}
       </div>
 
-      <div className="absolute right-20 top-40 grid grid-cols-6 gap-3">
+      <div className="absolute right-20 top-40 grid grid-cols-6 gap-3 -z-1">
         {Array.from({ length: 18 }).map((_, i) => (
           <span key={i} className="w-2 h-2 bg-gray-300 rounded-full" />
         ))}
       </div>
 
       {/* CONTENT */}
-      <div className=" mx-auto px-35 max-lg:px-25 max-md:px-20">
+      <div className=" mx-auto px-35 max-lg:px-25 max-md:px-20 max-sm:px-13">
 
         {/* HEADER */}
         <div className="text-center mb-20">
-          <h2 className="font-raleway text-5xl font-semibold text-dark mb-6 max-md:text-4xl">
+          <h2 className="font-raleway text-5xl font-semibold text-dark mb-6 max-md:text-4xl max-sm:text-3xl">
             Blogs
           </h2>
           <p className="font-manrope font-normal text-2xl inline-block bg-[linear-gradient(110deg,#CD6028_0%,#CD6028_45%,#3E6EB4_130%)]  
-       bg-clip-text text-transparent max-w-2xl mx-auto max-md:text-lg">
+       bg-clip-text text-transparent max-w-2xl mx-auto max-md:text-lg max-sm:text-base">
             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
             Lorem Ipsum has been the industry’s standard.
           </p>

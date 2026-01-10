@@ -14,28 +14,28 @@ function About() {
       {/* ABOUT HEADER CARD */}
       <div className="relative z-10 flex justify-center">
         <div className="bg-white rounded-3xl px-20 py-10
-          shadow-[0_0_40px_rgba(0,0,0,0.12)] text-center max-lg:px-15 max-md:px-12">
-          <h1 className="font-raleway text-5xl font-semibold mb-4 max-lg:text-4xl max-md:text-3xl">
+          shadow-[0_0_40px_rgba(0,0,0,0.12)] text-center max-lg:px-15 max-md:px-12 max-sm:px-3">
+          <h1 className="font-raleway text-5xl font-semibold mb-4 max-lg:text-4xl max-md:text-3xl max-sm:text-2xl">
             About Us
           </h1>
           <p className="font-manrope text-lg bg-[linear-gradient(110deg,#CD6028_0%,#CD6028_45%,#3E6EB4_130%)]
-            bg-clip-text text-transparent max-md:text-base">
+            bg-clip-text text-transparent max-md:text-base max-sm:text-sm">
             Meet the Minds Shaping Document Automation.
           </p>
         </div>
       </div>
 
        {/* cards sections  */}
-        <div className="card-box flex w-240 py-4 rounded-r-full px-5  gap-5 items-center  shadow-[0_0_40px_rgba(0,0,0,0.12)] mt-20 mr-auto max-lg:w-180 max-md:w-150">
-            <p className="ml-10 text-right font-manrope text-base font-medium text-[#696969] max-md:text-sm">To redefine document management with cutting-edge technology that ensures accuracy, efficiency, and trust.</p>
-            <span className="h-20 w-1 bg-[#CD6028] rounded-full"></span>
+        <div className="card-box flex w-240 py-4 rounded-r-full px-5  gap-5 items-center  shadow-[0_0_40px_rgba(0,0,0,0.12)] mt-20 mr-auto max-lg:w-180 max-md:w-150 max-sm:w-100 max-sm:flex-col-reverse max-sm:rounded-r-none max-sm:text-center">
+            <p className="ml-10 text-right font-manrope text-base font-medium text-[#696969] max-md:text-sm max-sm:ml-0 max-sm:text-center">To redefine document management with cutting-edge technology that ensures accuracy, efficiency, and trust.</p>
+            <span className="h-20 w-1 bg-[#CD6028] rounded-full max-sm:h-1 max-sm:w-20"></span>
             <h3 className="font-raleway font-bold text-dark text-2xl max-md:text-xl">Our <br/> Vision</h3>
             <img src={AboutImg1} alt="About frame image" />
         </div>
       {/* card 2 */}
-         <div className="card-box flex w-240 py-4 rounded-l-full px-5  gap-5 items-center flex-row-reverse content-end  shadow-[0_0_40px_rgba(0,0,0,0.12)] mt-20 ml-auto max-lg:w-180 max-md:w-150">
-            <p className="mr-10 text-left font-manrope text-base font-medium text-[#696969] max-md:text-sm">To redefine document management with cutting-edge technology that ensures accuracy, efficiency, and trust.</p>
-            <span className="h-20 w-1 bg-[#CD6028] rounded-full"></span>
+         <div className="card-box flex w-240 py-4 rounded-l-full px-5  gap-5 items-center flex-row-reverse content-end  shadow-[0_0_40px_rgba(0,0,0,0.12)] mt-20 ml-auto max-lg:w-180 max-md:w-150 max-sm:w-100 max-sm:flex-col-reverse max-sm:rounded-l-none max-sm:text-center">
+            <p className="mr-10 text-left font-manrope text-base font-medium text-[#696969] max-md:text-sm max-sm:mr-0 max-sm:text-center">To redefine document management with cutting-edge technology that ensures accuracy, efficiency, and trust.</p>
+            <span className="h-20 w-1 bg-[#CD6028] rounded-full max-sm:h-1 max-sm:w-20"></span>
             <h3 className="font-raleway font-bold text-dark text-2xl max-md:text-xl">Our <br/> Mission</h3>
             <img src={AboutImg1} alt="About frame image" />
         </div>
