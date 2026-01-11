@@ -15,7 +15,7 @@ function Products() {
     <>
     <section className='w-full h-screen relative max-lg:h-auto max-md:h-auto'>
      {/* background */}
-     <div className="bg-image absolute right-0 bottom-20">
+     <div className="bg-image absolute right-0 bottom-20 -z-1">
       <img src={bgCircle} alt="Circe bg Image" />
      </div>
       <div className="bg-image  absolute top-10 -z-1">

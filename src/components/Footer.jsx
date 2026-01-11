@@ -7,7 +7,7 @@ function Footer() {
   return (
     <footer className=' relative'>
     {/* contact section */}
-     <div className="footer-container flex justify-around max-lg:flex-col-reverse max-lg:items-center max-lg:gap-10 max-lg:mb-10 max-sm:px-4">
+     <div className="footer-container flex justify-around max-lg:flex-col-reverse max-lg:items-center max-lg:gap-10 max-lg:mb-10 max-sm:px-4 ">
         {/* left text */}
         <div className="footer-left">
           <div className="footer-tite">

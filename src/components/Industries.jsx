@@ -22,7 +22,7 @@ function Industries() {
      {/* Right content */}
      <div className="right-content w-full h-180 max-lg:h-auto ">
      {/* Background image */}
-      <div className="background-bg absolute top-20 left-0 ">
+      <div className="background-bg absolute top-20 left-0">
         <img className='w-200' src={bgCircle} alt="background circle" />
       </div>
 
@@ -43,7 +43,7 @@ function Industries() {
   max-lg:justify-items-center
   max-lg:relative max-lg:z-10 max-md:grid-cols-1 max-md:mx-1 max-sm:mx-0">
       {/* Card 1 Insurance */}
-       <div className="card1 absolute left-70 bottom-35 w-90 rounded-2xl py-20 px-13 shadow-2xl bg-white max-lg:static max-lg:mx-auto max-lg:w-[22rem] max-md:w-full">
+       <div className="card1 absolute left-70 bottom-35 w-90 rounded-2xl py-20 px-13 shadow-2xl bg-white max-lg:static max-lg:mx-auto max-lg:w-[22rem] max-md:w-full max-2xl:left-20">
           <div className='flex flex-col items-center text-center gap-4'>
             <img className='w-15' src={InsuranceIcon} alt="Health Care Icon" />
             <h3 className='font-raleway font-bold text-dark text-2xl'>Insurance</h3>
@@ -61,7 +61,7 @@ function Industries() {
        </div>
 
         {/* Card 3  */}
-       <div className="card1 absolute right-70 top-35 w-90 rounded-2xl py-20 px-13 shadow-2xl bg-white max-lg:static max-lg:mx-auto max-lg:col-span-2 max-md:col-span-1 max-lg:w-[22rem] max-md:w-full">
+       <div className="card1 absolute right-70 top-35 w-90 rounded-2xl py-20 px-13 shadow-2xl bg-white max-lg:static max-lg:mx-auto max-lg:col-span-2 max-md:col-span-1 max-lg:w-[22rem] max-md:w-full max-2xl:right-20">
           <div className='flex flex-col items-center text-center gap-4'>
             <img className='w-15' src={HealthIcon} alt="Health Care Icon" />
             <h3 className='font-raleway font-bold text-dark text-2xl'>Insurance</h3>
