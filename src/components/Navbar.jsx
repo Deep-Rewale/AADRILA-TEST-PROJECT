@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../assets/svg/Aadrila-logo.svg";
+import logo from "../assets/svg/Aadrila-Logo.svg";
 import Button from "./Button";
 import { Link } from "react-router-dom";
 import Hamburger from "hamburger-react";
