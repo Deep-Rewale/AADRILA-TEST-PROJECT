@@ -4,7 +4,7 @@ import teamImg1 from "../assets/icons/Member-Image1.jpg";
 import teamImg2 from "../assets/icons/Member-Image2.jpg";
 import teamImg3 from "../assets/icons/Member-Image3.jpg";
 import { motion } from "framer-motion";
-import Footer from "./Footer"
+import Footer from "./Footer";
 
 const team = [
   {
@@ -138,9 +138,9 @@ function Team() {
           <p>{team[index].desc}</p>
         </motion.div>
       </div>
-     <div className="mt-40 max-lg:mt-20">
-         <Footer />
-     </div>
+      <div className="mt-40 max-lg:mt-20">
+        <Footer />
+      </div>
     </section>
   );
 }
