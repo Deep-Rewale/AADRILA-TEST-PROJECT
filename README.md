@@ -1,16 +1,109 @@
-# React + Vite
+# Aadrila.ai – AI Technology Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive AI technology website built using **React**, **Vite**, **Tailwind CSS**, and **Framer Motion**.  
+This project focuses on clean UI, smooth animations, reusable components, and modern frontend best practices.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
 
-## React Compiler
+🚀 **Live Website:**  
+👉 https://your-live-demo-link.com
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Fully responsive modern UI
+- Hero section with animated document slider
+- Sticky, blurred navbar
+- Reusable button component
+- Smooth animations using Framer Motion
+- Clean component-based architecture
+- Custom fonts and color system
+- Optimized assets handling
+
+---
+
+## 🛠 Tech Stack
+
+- **React** (UI library)
+- **Vite** (Fast build tool)
+- **Tailwind CSS** (Utility-first CSS)
+- **Framer Motion** (Animations)
+- **JavaScript (ES6+)**
+
+---
+
+## 📁 Project Structure
+src/
+├── assets/
+│ ├── icons/
+│ ├── images/
+│ └── svg/
+│
+├── components/
+│ ├── About.jsx
+│ ├── Blog.jsx
+│ ├── Button.jsx
+│ ├── DocumentCarousel.jsx
+│ ├── Footer.jsx
+│ ├── Hero.jsx
+│ ├── Home.jsx
+│ ├── Industries.jsx
+│ ├── Navbar.jsx
+│ ├── Products.jsx
+│ └── Team.jsx
+│
+├── App.jsx
+├── index.css
+├── main.jsx
+│
+├── public/
+├── package.json
+├── vite.config.js
+└── README.md
+
+
+---
+
+## ⚙️ Installation & Setup
+
+Follow these steps to run the project locally:
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/Deep-Rewale/AADRILA-TEST-PROJECT
+```
+
+### 2️⃣ Navigate to Project Directory 
+```bash
+cd aadrila
+```
+
+### 3️⃣ Install Dependencies
+```bash
+npm install
+```
+
+### 4️⃣ Start Development Server
+```bash
+npm run dev
+```
+
+### The application will be available at:
+```bash
+http://localhost:5173
+```
+
+
+
+
+
+
+
+
+
+
+
+
