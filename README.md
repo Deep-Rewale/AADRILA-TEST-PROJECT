@@ -36,6 +36,7 @@ This project focuses on clean UI, smooth animations, reusable components, and mo
 ---
 
 ## 📁 Project Structure
+```bash
 src/
 ├── assets/
 │ ├── icons/
@@ -63,7 +64,7 @@ src/
 ├── package.json
 ├── vite.config.js
 └── README.md
-
+```
 
 ---
 
