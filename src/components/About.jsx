@@ -1,6 +1,6 @@
 import React from "react";
 import AboutImg1 from "../assets/icons/about-frame.png";
-import Team from "./team";
+import Team from "./Team";
 
 function About() {
   return (

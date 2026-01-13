@@ -1,7 +1,7 @@
 import React from "react";
 import Hero from "./Hero";
 import Industries from "./Industries";
-import Products from "./products";
+import Products from "./Products";
 import Blog from "./Blog";
 import Footer from "./Footer";
 
